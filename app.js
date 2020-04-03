@@ -19,7 +19,7 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
 
       //display the result on dice and changing the dice img
           document.querySelector('.dice').style.display = 'block';
-          document.querySelector('.dice').src = 'dice-' +dice+ '.png';
+          document.querySelector('.dice').src = 'images/dice-' +dice+ '.png';
       //updating the result if the result is not 1
           if(dice !== 1){
               roundscore+=dice;
